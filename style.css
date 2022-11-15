@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: green;
+    background-color: rgb(34, 32, 68) ;
     text-align: center;
 }
 .sidebar h1, a{
@@ -17,7 +17,7 @@ body{
 }
 .sidebar a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 
 }
 .sidebar a:hover{
@@ -27,6 +27,7 @@ body{
     transition: 0.5s;
 }
 .home{
+    background-image: url("https://cdn.britannica.com/10/152310-050-5A09D74A/Sand-dunes-Sahara-Morocco-Merzouga.jpg");
     flex: 6;
     order: -1;
     background-color: white;
